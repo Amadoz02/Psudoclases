@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+.box{
+  display: block;
+  background-color: steelblue;
+  width: 55px;
+  height: 55px;
+  margin: 10px 0;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+}
+/* .box:only-of-type{
+  background-color: rgb(78, 250, 90);
+} */
+.container{
+  border: 5px solid red;
+  padding: 10px 0;
+  margin-left: 5px;
+}
+/* .box:first-of-type{
+  background-color: rgb(97, 154, 90);
+} */
+ /* .box:last-of-type{
+  background-color: rgb(97, 154, 90);
+} */
+  .box:nth-child(1){
+  background-color: rgb(97, 154, 90);
+}

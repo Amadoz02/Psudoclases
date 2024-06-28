@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.enlace{
+  display: block;
+  background-color: rgb(160, 49, 49);
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-bottom:5px solid #1f0b0b;
+  text-align: center;
+  font-size: 22px;
+  margin: 20px 0;
+}
+.enlace:link{
+  background-color: rgb(40, 40, 104);
+  color: black;
+  border-bottom: 5px solid #eb6f6f;
+}
+.enlace:visited{
+  background-color: aqua;
+  color: black;
+}
+.enlace:hover{
+  background-color: #fff;
+}
+.enlace:active{
+  background-color: #eb6f6f;
+}
+.event{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: #eb6f6f;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+
+}
+.event:active{
+  background-color: aqua;
+}
+.box{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  transition-duration: 1s;
+}
+#objetivo:target{
+  border-radius: 0%;
+  transition-duration: 1s;
+}
+/*
+para el formulario 
+ */
+ html{
+  background-color: rgb(230, 230, 230);
+ }
+.form{
+  width: 70%;
+  margin: 30px auto;
+  background-color: hsl(244, 100%, 97%);
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.from_title{
+  text-align: center;
+  margin-bottom:20px ;
+}
+input{
+  display: block;
+  border-radius: 10px;
+}
+input[type="text"], 
+input[type="email"]{
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 30px;
+  border: none;
+
+}
+input[type="checkbox"]{
+  display: inline-block;
+}
+input:focus{
+  background-color: #ffd4d4;
+  color: rgb(0, 0, 0);
+}
+input[type="checkbox"]:checked + label{
+  color: red;
+}
+form:focus-within{
+  background-color: #ffe8cd;
+
+}
+/* otro form */
+h3{
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 20px ;
+
+}
+h3:not(.title):not(:hover){
+  color: red;
+}
