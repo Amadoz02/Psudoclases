@@ -32,10 +32,12 @@ body{
 } */
  .card_title::after, .card_title::before{
   content: "";
-  display: inline;
-  width: 100%;
+  display: inline-block;
+  width: 20%;
   height: 2px;
   background-color: #0b00dc;
+  position: relative;
+  margin-bottom: 5px;
  }
  ul{
   counter-reset: ADSO;
@@ -59,3 +61,4 @@ body{
   margin-right: 5px;
 
  }
+
